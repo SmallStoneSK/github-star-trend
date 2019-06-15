@@ -1,0 +1,18 @@
+{
+  "name": "Github-Star-Trend",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Generates a star trend graph for a github repository",
+  "icons": {
+    "16": "images/trending16.png",
+    "32": "images/trending32.png",
+    "48": "images/trending48.png",
+    "128": "images/trending128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["dist/bundle.js"]
+    }
+  ]
+}

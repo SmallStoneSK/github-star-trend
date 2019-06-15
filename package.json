@@ -1,0 +1,19 @@
+{
+  "name": "github-star-trend",
+  "version": "1.0.0",
+  "description": "Generates a star trend graph for a github repository",
+  "scripts": {
+    "start": "webpack -w --config webpack.config.js",
+    "build": "rm -rf ./dist && webpack --config webpack.config.js"
+  },
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "echarts": "^4.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  }
+}

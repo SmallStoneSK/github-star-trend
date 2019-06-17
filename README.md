@@ -23,3 +23,7 @@ git clone https://github.com/SmallStoneSK/github-star-trend.git
 由于插件是基于Github API中[Starring](https://developer.github.com/v3/activity/starring/)实现的，且Github对同一IP的调用频次有[限制](https://developer.github.com/v3/#rate-limiting)(1小时60次)。所以在使用的时候，可能会由于该限制出现如下的提示，此时你可以申请一个[Access Token](https://github.com/settings/tokens)来突破该限制(1小时5000次)。另外，`Access Token`会被保存在localStorage中。
 
 ![warn](./preview/warn.png)
+
+## License
+
+[MIT协议](./LICENSE)
